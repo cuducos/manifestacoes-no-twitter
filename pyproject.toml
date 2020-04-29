@@ -8,6 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.8"
 pymongo = "^3.10.1"
+rows = {extras = ["cli", "csv", "sqlite"], version = "^0.4.1"}
 typer = "^0.1.1"
 
 [tool.poetry.dev-dependencies]
